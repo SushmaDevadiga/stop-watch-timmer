@@ -1,0 +1,221 @@
+
+html{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+body{
+    width: 100%;
+    height: auto;
+    /* min-height: 100vh; */
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopwatch{
+    width: 300px;
+    height: auto;
+    margin: 3rem auto;
+    padding: 40px 30px;
+    position: relative;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+}
+#display{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 0;
+    margin: 0 0 20px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+}
+.btn-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    width: auto;
+    height: auto;
+    padding: 5px 30px;
+    margin: 0;
+    border: none;
+    position: relative;
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    border-radius: 10px;
+}
+#startStop{
+    background-color: #e50206;
+}
+#reset{
+    background-color: #2201c8;
+}
+#lap{
+    background-color: #1fc801;
+}
+
+#laps{
+   width: 100%; 
+   height: auto;
+   padding: 0;
+   margin: 30px 0 0;
+   display: grid;
+   gap: 4px;
+}
+#laps div{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+    font-weight: normal;
+}
+
+
+
+@media (min-width: 767.98px) and (max-width: 1024px) {
+    html{
+        font-size: 0.95rem;
+        line-height: 1.35rem;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        /* min-height: 100vh; */
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .stopwatch{
+        width: 350px;
+        height: auto;
+        margin: 2rem auto;
+        padding: 35px 15px;
+        position: relative;
+        border: 1px solid #d5d5d5;
+        border-radius: 10px;
+    }
+    #display{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding: 0;
+        margin: 0 0 16px;
+        color: #000000;
+        text-align: center;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .btn-div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+    
+    button{
+        width: auto;
+        height: auto;
+        padding: 6px 20px;
+        margin: 0;
+        border: none;
+        position: relative;
+        color: #ffffff;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        border-radius: 5px;
+        min-width: 80px;
+    }
+    #laps{
+        margin: 25px 0 0;
+    }
+}
+
+
+
+@media (max-width: 767px){
+    html{
+        font-size: 0.85rem;
+        line-height: 1.35rem;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        /* min-height: 100vh; */
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .stopwatch{
+        width: 70%;
+        height: auto;
+        margin: 2rem auto;
+        padding: 20px 15px;
+        position: relative;
+        border: 1px solid #d5d5d5;
+        border-radius: 10px;
+    }
+    #display{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding: 0;
+        margin: 0 0 16px;
+        color: #000000;
+        text-align: center;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .btn-div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+    
+    button{
+        width: auto;
+        height: auto;
+        padding: 6px 20px;
+        margin: 0;
+        border: none;
+        position: relative;
+        color: #ffffff;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        border-radius: 5px;
+        min-width: 80px;
+    }
+    #laps{
+        margin: 15px 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
